@@ -1,0 +1,50 @@
+.gridRow {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+}
+
+.gridCol {
+    box-sizing: border-box;
+    flex-basis: 33%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.category {
+    align-items: flex-end;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    width: 33%;
+    height: 700px;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    text-decoration-style: solid ;
+    transition-duration: 0.5s;
+}
+
+.cat {
+    align-items: center;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    width: 300px;
+}
+
+.catTitle {
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    outline-color: white;
+    position: relative;
+    transition-duration: 0.5s;
+    transition-property: all;
+    z-index: 5;
+}
